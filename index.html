@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Documentacion</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header>Conceptos JS</header>
+        <a href="#Conceptos_de_Js" class="nav-link">Conceptos de Js</a>
+        <a href="#Funciones_en_Js" class="nav-link">Funciones en Js</a>
+        <a href="#Objetos_y_metodos" class="nav-link">Objetos y metodos</a>
+        <a href="#Java_Exceptions_Try&Catch" class="nav-link">Java Exceptions Try&Catch</a>
+        <a href="#Web_API" class="nav-link">Web API</a>
+    </nav>
+    <!--Inicio main-->
+    <main id="main-doc">
+        <section class="main-section" id="Conceptos_de_Js">
+            <header>Conceptos de Js</header>
+            <article>
+                <p>JavaScript (JS) es un lenguaje de programación que se utiliza para crear páginas web interactivas y dinámicas. Se ejecuta en el navegador web y permite: Actualizar fuentes de redes sociales, Mostrar animaciones y mapas interactivos, Controlar multimedia, Validar formularios, Actualizar contenido en tiempo real. 
+                    <br>JS es la tercera capa de las tecnologías web estándar, junto con HTML y CSS. Se ejecuta directamente en el navegador del usuario, por lo que no es necesario compilarlo previamente. 
+                </p>
+                <h4>Algunas caracteristicas de JS son: </h4>
+                <p>Simplicidad, Velocidad, Versatilidad, Popularidad, Carga del servidor, Actualizaciones.<br>
+                    JS se puede utilizar también para el desarrollo de aplicaciones móviles, gracias a frameworks y tecnologías como React Native y Progressive Web Apps (PWA). <br>
+                    Algunos de los principales frameworks de JavaScript son: Ember, Singular, React, Vue.js. 
+                    </p>
+                <ul>
+                    <li>Funciones</li>
+                    <li>Objetos</li>
+                    <li>Catch & Try</li>
+                    <li>API fetch</li>
+                    <li>Async Await</li>
+                </ul>
+            </article>
+        </section>
+        <!--Funciones-->
+        <section class="main-section" id="Funciones_en_Js">
+            <header>Funciones en Js</header>
+            <article>
+                <p>Una función de JavaScript se define con la palabra clave function, 
+                    seguida de un nombre, seguido de paréntesis ().<br>
+                    Los nombres de las funciones pueden contener letras, dígitos, guiones 
+                    bajos y signos de dólar (las mismas reglas que las variables).</p>
+                <p>Los paréntesis pueden incluir nombres de parámetros separados por comas:
+                    (parámetro1, parámetro2, ...)<br>               
+                    El código a ejecutar, por la función, se coloca entre llaves: {}</p>
+                <p>Se puede llamar a funciones de dos maneras</p>
+                <ul>
+                    <li>Funciones generales</li>
+                    <li>Funcion de flecha</li>
+                </ul>
+                <code>
+                    function myFunction(a, b) {<br>
+                        // Function returns the product of a and b<br>
+                          return a * b;<br>
+                    }
+                    <code>//Funcion forma de flecha
+                        let func = (arg1, arg2, ..., argN) => expression;
+                    </code>
+                    
+                </code>
+            </article>
+        </section>
+        <!--Objetos-->
+        <section class="main-section" id="Objetos_y_metodos">
+            <header>Objetos y metodos</header>
+            <article>
+                <p>En JavaScript, un objeto es una colección de propiedades y métodos, mientras que un método es una función que se define dentro de un objeto:</p>
+                <p>Objeto<br>
+                Es un grupo de pares clave-valor que puede contener propiedades, métodos, cadenas, números, booleanos, y otros tipos de datos. Los objetos se pueden comparar con los objetos de la vida real
+                </p>
+                <p>Método<br>
+                    Es una función que se define dentro de un objeto y que se usa para manipular los datos almacenados en él. Los métodos se crean usando funciones y se ejecutan cuando se les llama con los paréntesis (). <br>
+                    
+                    Los métodos se utilizan para definir las operaciones que se pueden realizar con un objeto. Por ejemplo, el método length se utiliza para averiguar la longitud de una cadena. <br>
+                    Para acceder a las propiedades y métodos de un objeto en JavaScript, se puede usar la notación de puntos o la notación de corchetes. La notación de puntos es la más utilizada, pero tiene algunas limitaciones.</p>
+                <code>
+                    const car = {type:"Fiat", model:"500", color:"white"};
+                </code>
+            </article>
+        </section>
+        <!--Catch y try-->
+        <section class="main-section" id="Java_Exceptions_Try&Catch">
+            <header>Java Exceptions Try&Catch</header>
+            <article>
+                <h5>Java Exceptions</h5>
+                <p>Al ejecutar código Java pueden ocurrir diferentes errores: errores de codificación cometidos por el programador, errores por entradas incorrectas u otras cosas imprevisibles.
+
+                    <br>Cuando ocurre un error, Java normalmente se detendrá y generará un mensaje de error. El término técnico para esto es: Java generará una excepción (arrojará un error).</p>
+                <h5>Java try and catch</h5>
+                <p>La declaración try le permite definir un bloque de código que se probará en busca de errores mientras se ejecuta.
+
+                    <br>La declaración catch le permite definir un bloque de código que se ejecutará si ocurre un error en el bloque try.
+                    
+                    <br>Las palabras clave try and catch vienen en pares:</p>
+                <code>
+                    try {
+                        tryStatements
+                      } catch (exceptionVar) {
+                        catchStatements
+                      } finally {
+                        finallyStatements
+                      }                      
+                </code>
+            </article>
+        </section>
+
+        <!--API fetch-->
+        <section class="main-section" id="Web_API">
+            <header>Web API</header>
+            <article>
+                <h5>¿Qué es la API web?</h5>
+                <p>API stands for Application Programming Interface.
+
+                    <br>A Web API is an application programming interface for the Web.
+                    
+                    <br>A Browser API can extend the functionality of a web browser.
+                    
+                    <br>A Server API can extend the functionality of a web server.
+                </p>
+                <h5>API de navegadores</h5>
+                <p>Todos los navegadores tienen un conjunto de API web integradas para admitir operaciones complejas y facilitar el acceso a los datos.
+
+                    <br>Por ejemplo, la API de geolocalización puede devolver las coordenadas de la ubicación del navegador.</p>
+                <code>
+                    fetch('https://jsonplaceholder.typicode.com/users', {
+                        method: 'POST', // Establecemos el método de la petición aqui
+                      })
+                      .then(respuesta => respuesta.json())
+                      .then(datos => console.log(datos))
+                </code>
+            </article>
+        </section>
+    </main>
+    
+</body>
+</html>
